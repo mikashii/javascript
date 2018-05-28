@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funções</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <span>Clique no botão abaixo para gerar o valor da area</span>
+    <br><br>
+    <span class="valores"></span><br>
+    <button onclick="area(largura, altura)">Mostrar area</button><br>
+    <button onclick="clear()">Limpar</button>
+    <script>
+        const largura = parseFloat(prompt('Digite a largura: '))
+        const altura = parseFloat(prompt('Digite a Altura: '))
+
+        function area(largura, altura){
+            document.querySelector(".valores").innerHTML = ("A area dos valores é de "   + (largura * altura) + "<br>");
+            console.log("Ok!")
+        }
+        function clear(elemento){
+            document.querySelector(".valores").textContent = "";
+        }
+    </script>
+</body>
+</html>
