@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Página com atividades em Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikashii/javascript.git"
+  },
+  "author": "Carolina Cabral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikashii/javascript/issues"
+  },
+  "homepage": "https://github.com/mikashii/javascript#readme",
+  "devDependencies": {
+    "bulma": "^0.7.1"
+  }
+}
