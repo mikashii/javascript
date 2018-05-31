@@ -6,4 +6,7 @@ isActive = true
 
 isActive = 1
   console.log(!isActive) // vira negação
+  console.log(!true) //não verdadeiro = falso 
+  console.log(!false) // não falso = verdadeiro
+
   
