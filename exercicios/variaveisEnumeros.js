@@ -1,4 +1,4 @@
-var a = 3
+var a = 3 // na atualidade, a 'var' está descontinuada
 let b = 4
 
 var a = 40

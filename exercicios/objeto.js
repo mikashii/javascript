@@ -1,4 +1,4 @@
-const prod1 = {} // Uma array vazia, abaixo são adc as chaves e os valores
+const prod1 = {} // Uma array vazia, abaixo são adicionadas as chaves e os valores
 prod1.nome = 'Celular Ultra Mega'
 prod1.preco = 4000
 prod1['Desconto Legal'] = 0.40 // Evitar atributos com espaço
