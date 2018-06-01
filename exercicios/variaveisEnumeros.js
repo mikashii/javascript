@@ -1,3 +1,10 @@
+// Os nomes das variáveis são classificados como identificadores.
+/* Quando declaramos uma variável fora de uma função, ela se torna uma variavel de escopo global.
+Uma variável declarada dentro de uma função, se torna uma variável de escopo local
+*/
+
+/* Converter string em number parseInt()    parseFloat() */
+
 var a = 3;
 let b = 4;
 
