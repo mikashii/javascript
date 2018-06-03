@@ -1,4 +1,4 @@
-const a = {
+/* const a = {
   name: 'teste'
 }
 console.log(a)
@@ -25,3 +25,19 @@ a variável simplesmente aponta pro local onde o objeto está.
 
 
 */
+let valor // variável não definida
+console.log(valor)
+// Retorna undefined
+
+valor = null // Ausência de valor, você pode "zerar" a variavel, vc está declarado ela como nula
+
+const produto = {}
+console.log(produto.preço) // Undefined pois a chave 'preço' ainda não foi definida
+
+console.log(produto)
+  produto.preco = 3.50
+  console.log(produto)
+
+produto.preco = undefined // Nunca faça isso
+delete produto.preco   // Use o DELTE para deletar o attributo
+console.log(produto)
