@@ -14,10 +14,6 @@ soBoanoticia(7)
 function seForVerdade (valor) {
   if (valor) {
     console.log('É verdade...' + valor)
-<<<<<<< HEAD
   } 
-=======
-  }
->>>>>>> 93bef5fe121cda1d1d57c0183a8d8ddee963d1e6
 }
 seForVerdade(2)
