@@ -27,8 +27,11 @@ Variáveis Globais
                            // Usando var dois
 
 var numero = 1
+var Numero = 2
+var numero_um = 3
 {
-    var numero = 2
-    console.log('Dentro =', numero)
+    var numero = 34
+    console.log('Dentro =', numero) // var dentro de escopo de bloco
 }
 console.log('Fora =', numero)
+console.log(numero, Numero, numero_um)

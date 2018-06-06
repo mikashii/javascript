@@ -33,3 +33,8 @@ soma();
 typeof peso2
 
 console.log(soma)
+
+let carolina = 140
+console.log(carolina)
+carolina -= 21   // atribuiçao
+console.log(carolina)
