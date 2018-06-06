@@ -17,3 +17,17 @@ function seForVerdade (valor) {
   } 
 }
 seForVerdade(2)
+
+
+
+function efetuar_login(){
+  let user = 'admin'
+  let pass = 'admin'
+
+  if (user === 'admin' && pass === 'admin'){
+    console.log('\n' + 'Autenticado com sucesso')
+  } else {
+    console.log('Login fail')
+  }
+}
+efetuar_login()
