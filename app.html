@@ -17,17 +17,19 @@
     function makeRed(){
         const p = document.querySelector('p')
         const div = document.querySelector('div')
-        
+        const btn = document.querySelector('button')
+        div.setAttribute('style', 'color: pink;')
+        div.setAttribute('id', 'testDiv') // atribui o ID na tag, com o nome de 'testDiv'
+        div.getAttribute('id')
+
+        btn.textContent = 'Back <=' ; // atribui um texto ao botão
+        p.textContent = 'Centered Div Style!    '
         div.style.display= "flex";
         div.style.justifyContent = "center";
         div.style.alignItems= "center";
         div.style.flexDirection= "column";
         
         p.style.fontSize = '20px';
-    }
-    function add7 (number){
-        return number += 7
-        console.log(number)
     }
     </script>
 </body>
