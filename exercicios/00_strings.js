@@ -10,3 +10,9 @@ console.log(escola.replace(3, "e")) // Pega o valor de 3 e muda para e
 
 console.log('Ana, Maria, Pedro'.split(',') + '\n') // Transforma a string em um array, utilizando " , " como separador
 console.log('Esse é um comentário de\n multiplas linhas')
+console.log(`Esse
+também \n`)
+
+// todos após o 'ponto' são métodos.
+console.log(!true) // não verdadeiro!
+console.log(3>2)
