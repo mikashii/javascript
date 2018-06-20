@@ -5,20 +5,23 @@ prod1['Desconto Legal'] = 0.40 // Evitar atributos com espaço
 
 // outra forma de sentença para criar a array
 
-const prod2 = {
-  nome: "Camisa",
-  preço: 79.00
+
+const Carolina = {
+  Nome: "Carolina",
+  lastName: "Portas",
+  yearOfBirth: 1994,
+  job: "Web developer",
+  isMarried: false
 }
-console.log(prod1)
-console.log(prod2)
+console.log(Carolina) // exibe todo  o conteúdo do objeto
+console.log(["job"]) // exibe a key 'job'. É necessário passar a chave como uma string
 
-/*
-  ////// [] -> array    {} -> Objeto
 
-    const prod2 = {
-      nome: 'Camisa Polo',
-      preço: 79.90
-    }
-    console.log(prod2)
+console.log(["lastName"])
+const trabalho = 'job'  //cria uma variavel a partir da key do objeto "Carolina"
+const sobreNome = 'lastName'    // 
 
-    */
+
+console.log(Carolina[trabalho]) // atribui um valor a variável 'trabalho' vindo do objeto 'Carolina' usa-se os brackets
+console.log(Carolina[sobreNome])
+//                     variavel 
