@@ -77,3 +77,64 @@ let Lais = {
 
 Lais.calculateAge()
 console.log(Lais)
+
+
+const Mark = {
+  name: "Mark Smith",
+  mass: 60,
+  height: 1.80,
+  calculateBmi: function (){
+   this.bmi = this.mass / (this.height * this.height);
+   return this.bmi;
+  }
+};
+
+const Brian = {
+  name: "Brian O'nell",
+  mass: 90,
+  height: 1.90,
+  calculateBmi: function () {
+    this.bmi = this.mass / (this.height * this.height)
+    return this.bmi
+  }
+};
+
+Mark.calculateBmi()
+Brian.calculateBmi()
+console.log(Mark, Brian)
+
+
+if (Mark.calculateBmi() > Brian.calculateBmi()){
+  console.log(`${Mark.name} has a higher BMI than ${Brian.name}.`)
+} else if (Brian.calculateBmi() > Mark.calculateBmi()){
+  console.log(`${Brian.name} has a higher BMI than ${Mark.name}.`)
+} else {
+  console.log(`Both have the same BMI.`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
