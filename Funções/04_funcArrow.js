@@ -1,21 +1,18 @@
-function Pessoa (){
+/* function Pessoa (){
     this.idade = 0
     setInterval (()=>{
         this.idade++
         console.log(this.idade)
     }, 1000)
 }
+*/
 
 
-const dobro = (n) => n * 2; // quando será retornado apenas um parâmetro
+let dobro = (a) => {
+    return 2 * a
+}
 console.log(dobro(2))
 
-function Pessoa () {
-    this.idade = 0
+//quando apenas é setado um único parâmetro 
 
-    setInterval(() =>{
-        this.idade++
-        console.log(this.idade)
-    }, 1000)
-}
-new Pessoa
+dobro = a => 2 * a;   //retorno da função implícito

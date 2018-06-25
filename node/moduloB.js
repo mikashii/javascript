@@ -4,4 +4,4 @@ module.exports = {
     return 'Boa noite!'
   }
 }
-console.log(module.exports)
+console.log(module.export)
