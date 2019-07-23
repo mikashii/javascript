@@ -1,3 +1,18 @@
+let contador = 1
+while(contador <=10){
+  console.log(`contador = ${contador}\n`)
+  contador ++
+}
+for (let i = 0; i <= 10; i++){
+  console.log(`O contador é ${i}`)
+}
+
+
+
+
+
+
+
 /*
 for (let i = 1; i <= 10; i++){
 console.log(`O contador é ${i}`)
