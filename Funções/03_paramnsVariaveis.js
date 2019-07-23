@@ -6,6 +6,7 @@ function soma (){
     return soma
 }
 console.log(soma())
+console.log(soma(1))
 console.log(soma(1.2, 2.2, 3.3))
 console.log(soma(1.1, 2.2))
 console.log(soma(1, 3, 5, 87, 3))
