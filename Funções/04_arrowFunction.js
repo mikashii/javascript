@@ -8,7 +8,7 @@
  dobro = (a) => {return 2 * a}
  
  dobro = a =>  2 * a // return implícito
- // A função arrow é anônima, tera que sempre ser armazenada em uma variável
+ // A função arrow sempre é anônima, tera que sempre ser armazenada em uma variável
  console.log(dobro(Math.PI))
 
  let ola = function () {

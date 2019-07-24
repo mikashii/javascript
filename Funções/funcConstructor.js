@@ -18,4 +18,3 @@ Carolina.calculateAge()
 Carolina.adcHobbie("Programar")
 
 console.log(Carolina)
-

@@ -5,4 +5,4 @@ var numero = 1
 }
 /**Variáveis com let, funcionam somente dentro do escopo das mesmas */
 
-console.log('fora = ', numero, ', Let funciona apenas dentro do escopo onde foi declarada')
+console.log('fora = ', numero, ', Let funciona apenas dentro do escopo onde foi declarado')

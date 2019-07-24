@@ -1,4 +1,5 @@
 let contador = 1
+<<<<<<< HEAD
 while(contador <=10){
   console.log(`contador = ${contador}\n`)
   contador ++
@@ -16,8 +17,29 @@ for (let i = 0; i <= 10; i++){
 /*
 for (let i = 1; i <= 10; i++){
 console.log(`O contador é ${i}`)
+=======
+while (contador <= 10) {
+  console.log(`O contador agora é ${contador}`)
+  contador++
 }
 
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`O contador é: ${i}`) //Mesma coisa com For
+>>>>>>> ebb9becb71d372ee8b05e51febcdcb158ad7736f
+}
+
+
+const notas = [6.7, 7.4, 9.8, 8.1, 7.7]
+for(let i = 0; i < notas.length; i++){
+  console.log(`Nota = ${notas[i]}`);
+}
+
+
+
+
+
+/*
 // Loop para percorrer uma array
 let Jhon = ['Jhon', 'Smith', 1990, 'designer', false]
 // Começar o contador com 0, pois as arrays são 0 based
@@ -46,7 +68,7 @@ for (let  i = 0; i <= Jhon.length; i++){
   if (typeof Jhon[i] !== 'string') break; // toda vez que o iten for diferente de umam string, o loop vai parar no break
   console.log(Jhon[i])
 }
-*/
+
 
 const Fill = {
   fullName: "Fill Phillips",
