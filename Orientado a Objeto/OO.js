@@ -9,6 +9,8 @@ produto.nome = "Cadeira";
 produto.preco = 200;
 delete produto.preco;
 
+
+
 const carro = {
   modelo: "A4",
   valor: 89000,
@@ -21,15 +23,15 @@ const carro = {
     }
   },
   condutores: [{
-    nome: "Laís",
-    idade: 19
+    nome: "Felipe",
+    idade: 18
   },{
     nome: "Carolina",
     idade: 24
   }]
 };
 
-console.log(carro.condutores[1]);
+console.log(carro.condutores[0]);
 
-delete carro.condutores
+delete carro.condutores[1]
 console.log(carro);

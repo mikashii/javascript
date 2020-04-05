@@ -1,20 +1,23 @@
-/*  Arrays sao objetos globais
-E servem para armazenar vários dados em uma única variável.
-Exemplo de criação de uma array: 
-const produto = new Array ("Camiseta", " Calça", " Moletom", " Jaqueta");
-Array a partir de um construtor
+/* 
+Arrays são utilizadas para armazenar ou receber valores em listas.
+- Toda array é um objeto
+- Há duas formas de construir uma array
+1 - let arr = new Array();
+2 - De forma literal e mais utilizada:
+let arr = [a, b, c, d];
+- Array é contruida por índices e começando sempre do índice 0, ou seja arr[0] = a 
 
-/*
-const valores = [32.3, 121, 3, 1]
-console.log(valores[0], valores[3])
+
+
 */
 const valores = new Array(
     "Acima de R$ 10,00",
     "Acima de R$ 20,00",
-    "Acima de R$ 30,00"
+    "Acima de R$ 30,00",
+    "Acima de R$ 40,00"
     );
     const produto = new Array("Camiseta", " Calça", " Moletom", " Jaqueta");
-    console.log(produto[3], produto[2]);
+    console.log(produto[3],"e" + produto[2]);
     console.log(valores);
     
     console.log(valores.length);
@@ -88,3 +91,11 @@ const valores = new Array(
         matriz[i] = 2018 - anos[i];
     }
     console.log(matriz)
+
+    var yuky = ["Jessyka", "Yuky", 27, "gostosa"]
+    console.log(yuky[3])
+    console.log(yuky[0])
+    console.log(yuky)
+    console.log(yuky)
+yuky.splice(2,1);
+console.log(yuky)           
